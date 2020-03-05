@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_card"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.creatio.imm.PhoneValidator">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/phone_sms" />
+
+    <TextView
+        android:id="@+id/txtMsj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Para recuperar tu contraseña enviaremos un código a tu teléfono"
+        android:textColor="@color/colorAccentDark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtValidator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Tu teléfono"
+        android:inputType="phone" />
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:pinLineColors="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnRenviar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/renviar"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/btnValidator"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_facebook"
+        android:gravity="center"
+        android:text="@string/enviar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:initialCornerAngle="35dp" />
+</LinearLayout>

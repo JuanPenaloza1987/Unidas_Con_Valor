@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context="com.creatio.imm.OrderCar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/txtOrder"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="Orden "
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/rlCar"
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_restaurant" />
+
+            <TextView
+                android:id="@+id/txtBadgemenu"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView3"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.2"
+                android:background="@drawable/btn_primary_nopadding"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0.7"
+            android:fontFamily="sans-serif-light"
+            android:text="Detalle de tu orden:"
+            android:textColor="@color/greenDark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMore"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_green_alpha"
+            android:text="Añadir algo más"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="2dp"
+                    app:contentPadding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView32"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:layout_weight="0.5"
+                                android:text="Total de la orden"
+                                android:textColor="@color/colorAccentDark"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/txtTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:gravity="right|center_vertical"
+                                android:textColor="@color/orangeDark"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="Elige una sucursal:"
+                            android:textColor="@color/colorAccentDark" />
+
+                        <Button
+                            android:id="@+id/btnBranch"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="0.8"
+                            android:background="@drawable/btn_fondo_nopadding"
+                            android:drawableRight="@drawable/ic_location_info"
+                            android:drawableTint="@color/colorAccent"
+                            android:text="Sucursal"
+                            android:textAllCaps="false" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtReser"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.5"
+                                android:text="Sin reservación"
+                                android:textColor="@color/colorAccentDark"
+                                android:textSize="14sp" />
+
+                            <Button
+                                android:id="@+id/btnReserv"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.3"
+                                android:background="@drawable/btn_green"
+                                android:text="Reservar"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCard"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_facebook"
+        android:text="Reaizar orden"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

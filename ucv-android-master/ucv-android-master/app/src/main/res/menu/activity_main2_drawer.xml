@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ini"
+            android:icon="@drawable/logounidos"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_favs"
+            android:icon="@drawable/ic_fav"
+            android:title="Favoritos" />
+
+        <item
+            android:id="@+id/nav_not"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_trend"
+            android:icon="@drawable/ic_trend"
+            android:title="Tu ahorro" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/nav_politica"
+            android:icon="@drawable/ic_info"
+            android:title="Política de privacidad" />
+        <item
+            android:id="@+id/nav_close"
+            android:icon="@drawable/ic_close"
+            android:title="Cerrar sesión" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/contactosTarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo"
+        tools:context=".Contactos_Tarjeta">
+
+            <TextView
+                android:id="@+id/txtRegresar2"
+                android:layout_width="340dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="32dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/flechaizquierda"
+                android:text=" Regresar"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtMsg"
+                android:layout_width="340dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:text="Añade tus contactos de emergencia."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtRegresar2" />
+
+            <FrameLayout
+                android:id="@+id/infoContacto1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/frame_round_white"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtMsg">
+
+                <TextView
+                    android:id="@+id/txtMsjCon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Contacto 1"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/txtContacto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Nombre completo"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA"
+                    tools:layout_editor_absoluteX="-97dp"
+                    tools:layout_editor_absoluteY="298dp" />
+
+                <EditText
+                    android:id="@+id/txtNumContac1"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Teléfono (10 dígitos)"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/infoContacto2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/frame_round_white"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/infoContacto1">
+
+                <TextView
+                    android:id="@+id/txtMsjCon2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Contacto 2"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/txtContacto2"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Nombre completo"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA"
+                    tools:layout_editor_absoluteX="-97dp"
+                    tools:layout_editor_absoluteY="298dp" />
+
+                <EditText
+                    android:id="@+id/txtNumContac2"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Teléfono (10 dígitos)"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/infoContacto3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/frame_round_white"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/infoContacto2">
+
+                <TextView
+                    android:id="@+id/txtMsjCon3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Contacto 3"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/txtContacto3"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Nombre completo"
+                    android:inputType="textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA"
+                    tools:layout_editor_absoluteX="-97dp"
+                    tools:layout_editor_absoluteY="298dp" />
+
+                <EditText
+                    android:id="@+id/txtNumContac3"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="90dp"
+                    android:background="@drawable/text_rounded_azul"
+                    android:ems="10"
+                    android:hint="Teléfono (10 dígitos)"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textColor="#0091EA"
+                    android:textColorHint="#0091EA" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btnContinuar3"
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_rounded"
+                android:text="Continuar"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/infoContacto3"
+                app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

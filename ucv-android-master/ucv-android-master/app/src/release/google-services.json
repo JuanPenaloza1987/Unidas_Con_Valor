@@ -1,0 +1,149 @@
+{
+  "project_info": {
+    "project_number": "438324936129",
+    "firebase_url": "https://icupon-b4f31.firebaseio.com",
+    "project_id": "icupon-b4f31",
+    "storage_bucket": "icupon-b4f31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438324936129:android:011f55d597e164c7",
+        "android_client_info": {
+          "package_name": "com.creatio.icupon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438324936129-e7plkchm11vbhsdc033vksmlnkrecetq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon",
+            "certificate_hash": "0b436013c9b83fc242dd7859c2bf98960e3ee503"
+          }
+        },
+        {
+          "client_id": "438324936129-io8bgfki1dsbgv8h5j6bj77qi5u5h2n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon",
+            "certificate_hash": "f7635e4c5f097c6690d68e9a837304d2e49dea95"
+          }
+        },
+        {
+          "client_id": "438324936129-qae4u62o5qf6dr8bl9paa2akv7k37tcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon",
+            "certificate_hash": "285f21f188df9fce62f6949e1b37d2e20b7f74c6"
+          }
+        },
+        {
+          "client_id": "438324936129-eoukr86oevemo5rmgf4e6p2g4ev3aos5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon",
+            "certificate_hash": "a339a7ff22c9df606e25aaddf52122a861e1ba3c"
+          }
+        },
+        {
+          "client_id": "438324936129-je6mvkfjrv0le6admokg81nhae51bcgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLrf0Rg-5EL3MRqhjj3zGfElNwXUZ_ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438324936129-je6mvkfjrv0le6admokg81nhae51bcgc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "438324936129-hbemlp869s8l22c73bgaah23hqesklak.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.creatio.eCuponPay",
+                "app_store_id": "1444796342"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438324936129:android:8c76b2c7be4ca8cd",
+        "android_client_info": {
+          "package_name": "com.creatio.icupon_pay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438324936129-dannhajr4g1cs1325ac0nak5c2larf4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon_pay",
+            "certificate_hash": "5c5e0f2f1e74dead704967fdc8ee686cb3be08f7"
+          }
+        },
+        {
+          "client_id": "438324936129-3gjeins6vt59683f46d65gngj0mhoj3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon_pay",
+            "certificate_hash": "285f21f188df9fce62f6949e1b37d2e20b7f74c6"
+          }
+        },
+        {
+          "client_id": "438324936129-cmu10dj0gslsh279098lbnkkq2iqqae1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon_pay",
+            "certificate_hash": "a339a7ff22c9df606e25aaddf52122a861e1ba3c"
+          }
+        },
+        {
+          "client_id": "438324936129-da7h0jjb6qa6au7hr6r3hdjo6j603v53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.creatio.icupon_pay",
+            "certificate_hash": "f7635e4c5f097c6690d68e9a837304d2e49dea95"
+          }
+        },
+        {
+          "client_id": "438324936129-je6mvkfjrv0le6admokg81nhae51bcgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLrf0Rg-5EL3MRqhjj3zGfElNwXUZ_ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438324936129-je6mvkfjrv0le6admokg81nhae51bcgc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "438324936129-hbemlp869s8l22c73bgaah23hqesklak.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.creatio.eCuponPay",
+                "app_store_id": "1444796342"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

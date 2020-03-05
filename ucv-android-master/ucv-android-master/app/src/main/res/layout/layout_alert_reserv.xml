@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/round_btn_white">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fondo_alert" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Haz tu reservación"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_fondo_nopadding"
+            android:drawableRight="@drawable/ic_date"
+            android:drawableTint="@color/colorAccent"
+            android:text="Selecciona una fecha"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_fondo_nopadding"
+            android:drawableRight="@drawable/ic_clock"
+            android:drawableTint="@color/colorAccent"
+            android:text="Selecciona una hora"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_fondo_nopadding"
+            android:drawableRight="@drawable/ic_user"
+            android:drawableTint="@color/colorAccent"
+            android:text="Número de personas"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_fondo_nopadding"
+            android:drawableRight="@drawable/ic_user"
+            android:drawableTint="@color/colorAccent"
+            android:text="Área"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Cancelar" />
+
+            <Button
+                android:id="@+id/btnAceptar"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_facebook"
+                android:text="Continuar"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

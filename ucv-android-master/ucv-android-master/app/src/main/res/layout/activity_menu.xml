@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.creatio.imm.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/green"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Menu"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/rlCupons"
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_tag_white" />
+
+            <TextView
+                android:id="@+id/txtBadgeGifts"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.2"
+                android:background="@drawable/btn_yelow_nopadding"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/txtBadgeCupons"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView3"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.2"
+                android:background="@drawable/btn_primary_nopadding"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlCar"
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_restaurant" />
+
+            <TextView
+                android:id="@+id/txtBadgemenu"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/imageView4"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.2"
+                android:background="@drawable/btn_primary_nopadding"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/lvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo_card"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:groupIndicator="@null" />
+
+</LinearLayout>

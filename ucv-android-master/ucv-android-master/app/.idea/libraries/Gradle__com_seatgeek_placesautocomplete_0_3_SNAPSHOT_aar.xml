@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.seatgeek:placesautocomplete:0.3-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88ea6bb57b21fab19a6b214b2467d508/placesautocomplete-0.3-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88ea6bb57b21fab19a6b214b2467d508/placesautocomplete-0.3-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

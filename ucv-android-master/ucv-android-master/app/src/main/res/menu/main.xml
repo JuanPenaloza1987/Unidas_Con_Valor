@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:title=""
+        app:actionLayout="@layout/menu_item_badge"
+        app:showAsAction="ifRoom" />
+    <!--<item-->
+        <!--android:id="@+id/action_filters"-->
+        <!--android:title=""-->
+        <!--android:icon="@drawable/ic_restaurant"-->
+        <!--app:actionLayout="@layout/menu_item_badge2"-->
+
+        <!--app:showAsAction="always" />-->
+</menu>

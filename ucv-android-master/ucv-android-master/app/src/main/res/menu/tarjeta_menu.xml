@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ini"
+            android:icon="@drawable/logo_corazon"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_buzon"
+            android:icon="@drawable/ic_fav"
+            android:title="Buzón de apoyo" />
+
+        <item
+            android:id="@+id/nav_favs"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Editar Perfil" />
+
+        <item
+            android:id="@+id/nav_not"
+            android:icon="@drawable/ic_user"
+            android:title="Contactos" />
+        <item
+            android:id="@+id/nav_trend"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="Unidas Cuidándonos" />
+        <item
+            android:id="@+id/nav_politica"
+            android:icon="@drawable/ic_info"
+            android:title="Política de privacidad" />
+        <item
+            android:id="@+id/nav_close"
+            android:icon="@drawable/ic_close"
+            android:title="Cerrar sesión" />
+    </group>
+
+
+
+</menu>

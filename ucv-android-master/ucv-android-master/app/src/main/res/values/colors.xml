@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cb4050</color>
+    <color name="colorPrimaryDark">#a32e3c</color>
+    <color name="colorAccent">#38323D</color>
+    <color name="colorAccentDark">#19161b</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_20">#B4000000</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="fondo_card">#eaedf2</color>
+
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="red">#f44336</color>
+    <color name="redDark">#B71C1C</color>
+    <color name="green_alpha">#b7e7a8</color>
+    <color name="green">#84bb73</color>
+    <color name="greenDark">#1b5e20</color>
+    <color name="yellow">#d2c135</color>
+    <color name="yellowstar">#FFEB3B</color>
+    <color name="yellowstarDark">#998c22</color>
+    <color name="yellowDark">#998c22</color>
+    <color name="orange">#f6846a</color>
+    <color name="orangeDark">#d2705a</color>
+    <color name="plata">#b6b6b6</color>
+    <color name="plataDark">#9c9c9c</color>
+    <color name="oro">#f5bc23</color>
+    <color name="oroDark">#d4a31e</color>
+    <color name="platinum">#798db2</color>
+    <color name="platinumDark">#657594</color>
+    <color name="white_transparent">#9fffffff</color>
+    <color name="fondo_card_dark">#c2c2c2</color>
+    <color name="top_azul">#2962ff</color>
+</resources>

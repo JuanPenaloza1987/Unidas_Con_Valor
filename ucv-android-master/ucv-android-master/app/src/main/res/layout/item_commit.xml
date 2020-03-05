@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/txtCom"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Comentarios"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="0.15"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image"
+            app:civ_border_color="@color/cardview_light_background"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RatingBar
+                android:id="@+id/rtBarSpe"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="0.8"
+                android:numStars="5"
+                android:rating="0"
+                android:visibility="gone"
+                android:stepSize="1"
+                android:theme="@style/RatingBar" />
+
+            <TextView
+                android:id="@+id/txtCommit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id nunc et libero ullamcorper feugiat. Vivamus eu purus nec erat pretium rhoncus sit amet eu sem. Aenean nisl enim, finibus id molestie non, ornare a magna. Fusce ullamcorper fermentum placerat. Nullam sed neque quis lacus hendrerit fermentum. Sed nisl lorem, sodales in nunc consectetur, facilisis ultricies libero. Donec fringilla vitae tellus sit amet tempor."
+                android:textColor="@color/colorAccentDark" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

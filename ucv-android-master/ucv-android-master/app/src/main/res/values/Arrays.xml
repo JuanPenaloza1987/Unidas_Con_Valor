@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listado">
+        <item>Ironman</item>
+        <item>Ironman American</item>
+        <item>Hulk</item>
+        <item>Thor</item>
+        <item>Black Widow</item>
+        <item>Ant man</item>
+        <item>Spider man</item>
+        <item>Goku</item>
+        <item>Gohan</item>
+        <item>Bulma</item>
+        <item>Bidel</item>
+        <item>Picoro</item>
+        <item>maestro Rochi</item>
+        <item>Satan</item>
+        <item>Cell</item>
+        <item>Majin boo</item>
+        <item>Asesinos</item>
+        <item>Carros</item>
+        <item>Casas</item>
+        <item>upd</item>
+        <item>negocio</item>
+    </string-array>
+</resources>

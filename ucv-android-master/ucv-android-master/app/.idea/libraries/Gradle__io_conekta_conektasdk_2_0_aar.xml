@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.conekta:conektasdk:2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33a49fc22a00d9b34e159e8cdd6d07b7/conektasdk-2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33a49fc22a00d9b34e159e8cdd6d07b7/conektasdk-2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.conekta/conektasdk/2.0/3c0b11a0564a4a77ed54ee90d9e0feec01e3ae52/conektasdk-2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.conekta/conektasdk/2.0/8ce2ca468a1bd852c38927412ec4f25ca8a571a8/conektasdk-2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
